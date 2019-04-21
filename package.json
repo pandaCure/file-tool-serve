@@ -1,0 +1,28 @@
+{
+  "name": "testLangu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "jszip": "^3.2.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "opencc": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
