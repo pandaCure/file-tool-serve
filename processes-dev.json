@@ -1,0 +1,18 @@
+[
+  {
+    "name": "convert",
+    "script": "./server.js",
+    "interpreter": "node@11.14.0",
+    "exec_mode" : "fork",
+    "instances": 1,
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "merge_logs": true,
+    "watch": false,
+    "args": "log",
+    "env": {
+      "PORT": 4571,
+      "NODE_ENV": "development",
+      "watch": false
+    }
+  }
+]
